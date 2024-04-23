@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeInfo StoreCodeCompletion="1">
+	<Child Hash="-516859284" Key="{A71E84DF-6748-4E11-9F51-DA8950BFEA71}">
+		<Data Properties="767A1275134B414B8BB2825ADEC5CB5EUFFFFFFFFFFFFFFFFV4L5ZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-1499759746" Key="{67FC7390-0477-491A-BFA8-94AB60DCAA8B}">
+		<Data Properties="A81D68423ECDAC4292C098365745E7B6UFFFFFFFFFFFFFFFFV4L7ZZY">
+			<FunctionDescriptions>
+				<Child Name="SetText" Doc="Enters text in the text box." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Text" IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="wText" IsBasic="True" Data="ZI4L2L4ZO8Z04L">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="959705062" Key="{EB5474A4-49A0-4713-98E2-EAA39E2BB899}">
+		<Data Properties="F2A6A610BAA354449AD622AFA3CC2F4FUFFFFFFFFFFFFFFFFV4L4ZZY">
+			<FunctionDescriptions>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+</TypeInfo>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="VisualTest : can't get api key from local storage"/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error3">
+								<Prp name="msg" type="S" value="VisualTest : can't initialize visual test object"/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="VisualTest : can't initialize project"/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="VisualTest : can't get api key"/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="VisualTest : can't read api key remotely"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="17895"/>
+						<Prp name="duration" type="I" value="17895"/>
+						<Prp name="starttime" type="D" value="45405.4491590162"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADIANQBDADQARgBGAEEALQA3ADQARgBDAC0ANAAzADUANAAtADgANwAzADMALQA3ADcAOAAyADkAMwA4AEMAMgA3ADMAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Test1"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="17895"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45405.4491590162"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TE_project"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="name" type="S" value="vt_workaround"/>
+		<Prp name="stop" type="D" value="45405.4493673843"/>
+		<Prp name="starttime" type="D" value="45405.4491587037"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="testname" type="S" value="vt_workaround"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="host" type="S" value="SB-PL-B9DWQV3"/>
+		<Prp name="user" type="S" value="grzegorz.tata"/>
+		<Prp name="key" type="S" value="{274DED16-CF46-4F93-BC5E-4C1440FF518A}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>
